@@ -1,0 +1,33 @@
+Control de un tanque via bluetooth mediante arduino con n dispositivo android.
+
+El programa android es el siguiente:
+https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller
+
+comandos utilizados:
+
+Forward -> F
+Back -> B
+Left -> L
+Right -> R
+Forward Left -> G
+Forward Right ->I
+Back Left -> H
+Back Right -> J
+Stop -> S
+Front Lights On -> W (upper case)
+Front Lights Off -> w (lower case)
+Back Lights On -> U (upper case)
+Back Lights Off -> u (lower case)
+Speed 0 -> 0 (Zero)
+Speed 10 -> 1
+Speed 20 -> 2
+Speed 30 -> 3
+Speed 40 -> 4
+Speed 50 -> 5
+Speed 60 -> 6
+Speed 70 -> 7
+Speed 80 -> 8
+Speed 90 -> 9
+Speed 100 -> q
+
+La comunicación se realiza mediante la librería SoftSerial.
